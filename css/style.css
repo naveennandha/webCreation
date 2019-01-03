@@ -463,3 +463,39 @@ ul.pricing-spec li p {
 .pricing-box-lg ul.pricing-spec li p {
     color: #fff;
 }
+
+
+/***********
+COUNTER SECTION
+***********/
+
+#counter-cover {
+    background-image: url(../images/bg/4.jpg);
+}
+
+#counters .content-box {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.counter-item {
+    padding: 100px 0;
+}
+
+.counter-item i {
+    color: #E05263;
+}
+
+.counter-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0px;
+}
