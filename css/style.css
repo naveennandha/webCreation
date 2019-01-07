@@ -499,3 +499,12 @@ COUNTER SECTION
     font-weight: 300;
     margin-top: 0px;
 }
+
+
+/***********
+CLIENT SECTION
+***********/
+
+.client {
+    padding: 40px 0;
+}
