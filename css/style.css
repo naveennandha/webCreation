@@ -507,4 +507,44 @@ CLIENT SECTION
 
 .client {
     padding: 40px 0;
+    margin: 0 20px 0 20px;
+}
+
+
+/***********
+CONTACT SECTION
+***********/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(../images/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contact-info address {
+    color: #fff;
+}
+
+address strong,
+#phone-landline-email p strong {
+    letter-spacing: 1px;
 }
