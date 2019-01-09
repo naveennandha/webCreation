@@ -548,3 +548,65 @@ address strong,
 #phone-landline-email p strong {
     letter-spacing: 1px;
 }
+
+form .form-control {
+    background: transparent;
+    border-radius: 0px;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin: 20px;
+    color: #fff;
+}
+
+#send-btn {
+    padding: 0 19px;
+}
+
+
+/***********
+FOOTER SECTION
+***********/
+
+#footer-bottom {
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #e05263;
+    ;
+}
