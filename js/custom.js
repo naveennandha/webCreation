@@ -76,3 +76,45 @@ $(function () {
         autoplayHoverPause: true
     });
 });
+
+
+/*==============
+    NAVIGATION
+===============*/
+
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() < 50) {
+            //hide
+            $("nav").removeClass("pt-top-nav");
+            $("#back-to-top").fadeOut();
+
+        } else {
+            //show
+            $("nav").addClass("pt-top-nav");
+            $("#back-to-top").fadeIn();
+        }
+    });
+});
+
+
+//smooth scrolling menu item
+$(function () {
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+        var section = $(this).attr("href");
+
+        //add animation to the html & body element
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250);
+
+    });
+});
+
+
+
+
+/*==============
+    NAVIGATION
+===============*/

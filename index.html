@@ -36,8 +36,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    <header>
 
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="pt-nav-wrapper">
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pt-menu">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a href="#" class="navbar-brand">
+                            <img src="images/brand/logo.png">
+                        </a>
+                    </div>
+
+                    <div id="pt-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#services">Service</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href="#work">Work</a></li>
+                            <li><a class="smooth-scroll" href="#team">Team</a></li>
+                            <li><a class="smooth-scroll" href="#testimonials">Testimonials</a></li>
+                            <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                            <li><a class="smooth-scroll" href="#counters">Counter</a></li>
+                            <li><a class="smooth-scroll" href="#clients">Clients</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
     <!--Home Start-->
     <section id="home">
         <div id="home-cover" class="bg-parallax animated fadeIn">
@@ -737,6 +775,10 @@
                 </div>
             </div>
         </div>
+
+        <!--        a#back-to-top.btn.btn-sm.btn-blue.back-to-top.smooth-scroll>i.fa.fa-angle-up-->
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="home" role="button"><i class="fa fa-angle-up"></i></a>
+
 
 
     </footer>

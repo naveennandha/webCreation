@@ -111,6 +111,16 @@ HOME SECTION
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    float: right;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 1px 12px;
+    border-radius: 0px;
+    display: none;
+}
 
 /*================
     PARALLAX
@@ -610,3 +620,53 @@ FOOTER SECTION
     color: #e05263;
     ;
 }
+
+/***********
+NAVIAGATION SECTION
+smooth effect in navbar
+***********/
+
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+    /*smooth effect adding*/
+}
+
+.pt-top-nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.pt-nav-wrapper {
+    padding: 0px 85px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #e05263;
+    background: none;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.pt-top-nav ul.navbar-nav > li.active > a {
+    color: #e05263;
+}
+
+.btn
