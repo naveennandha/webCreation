@@ -69,11 +69,29 @@ $(function () {
 
 $(function () {
     $("#clients-list").owlCarousel({
-        items: 3,
+        items: 4,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 3
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 5
+            },
+            992: {
+                items: 6
+            }
+        }
+
     });
 });
 
@@ -97,7 +115,12 @@ $(function () {
     });
 });
 
-
+/*Close Mobile Menu On Click (click,touch -> user defined value)*/
+$(function () {
+    $(".navbar-collapse ul li a").on("click touch", function () {
+        $(".navbar-toggle").click();
+    });
+});
 //smooth scrolling menu item
 $(function () {
     $("a.smooth-scroll").click(function (event) {

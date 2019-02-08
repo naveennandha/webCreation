@@ -32,6 +32,7 @@ p {
     font-weight: 300;
 }
 
+
 /*=========
 HOME SECTION
 ==========*/
@@ -638,7 +639,7 @@ smooth effect in navbar
 }
 
 .pt-nav-wrapper {
-    padding: 0px 85px;
+    padding: 0px 70px;
 }
 
 .navbar-nav li a {
